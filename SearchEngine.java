@@ -14,6 +14,7 @@ class Handler implements URLHandler {
             String[] parameters = url.getQuery().split("=");
             if (parameters[0].equals("s")) {
                 strArray.add(parameters[1]);
+                return "Input Accepted!";
             }
         } else if (url.getPath().equals("/search")){
             String[] parameters = url.getQuery().split("=");
