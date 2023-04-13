@@ -22,12 +22,12 @@ class Handler implements URLHandler {
             if (parameters[0].equals("s")) {
                 for(String s:strArray){
                     if(s.contains(parameters[1]))
-                        result+=s+" and";
+                        result+=s+" and ";
                 }
             }
             if(result.length()==0)
                 return "No string found";
-            return result.substring(0,result.length()-4);
+            return result.substring(0,result.length()-5);
         }
         return "404 Not Found!";
     }
