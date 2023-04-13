@@ -27,9 +27,8 @@ class Handler implements URLHandler {
             if(result.length()==0)
                 return "No string found";
             return result.substring(0,result.length()-4);
-        } else {
-            return "404 Not Found!";
         }
+        return "404 Not Found!";
     }
 }
 
