@@ -9,7 +9,7 @@ class Handler implements URLHandler {
 
     public String handleRequest(URI url) {
         if (url.getPath().equals("/")) {
-            return String.format(strArray.toString());
+            return String.format("Array: "strArray.toString());
         } else if (url.getPath().equals("/add")) {
             String[] parameters = url.getQuery().split("=");
             if (parameters[0].equals("s")) {
