@@ -35,5 +35,5 @@ class StringServer {
 }
 ```
 
-![Image](https://github.com/nathanieleh/wavelet/First_Saved_Message%20(2).png)
-![Image](https://github.com/nathanieleh/wavelet/Second_Saved_Message.png)
+![Image](https://github.com/nathanieleh/wavelet/blob/master/First_Saved_Message%20(2).png)
+![Image](https://github.com/nathanieleh/wavelet/blob/master/Second_Saved_Message.png)
